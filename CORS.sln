@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_CORS_Server", "Simple_CORS_Server\Simple_CORS_Server.csproj", "{7B3021F2-2060-453D-9272-6961B3B83F03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple_CORS_Server", "Simple_CORS_Server\Simple_CORS_Server.csproj", "{7B3021F2-2060-453D-9272-6961B3B83F03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_Static_Server", "Simple_Static_Server\Simple_Static_Server.csproj", "{3D0A8000-22E4-47C1-99B4-50B01F3B482B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple_Static_Server", "Simple_Static_Server\Simple_Static_Server.csproj", "{3D0A8000-22E4-47C1-99B4-50B01F3B482B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration_CORS", "Configuration_CORS\Configuration_CORS.csproj", "{F4534CF0-A7C1-4E7C-A8BA-AF677D0AC44A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3D0A8000-22E4-47C1-99B4-50B01F3B482B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D0A8000-22E4-47C1-99B4-50B01F3B482B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D0A8000-22E4-47C1-99B4-50B01F3B482B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4534CF0-A7C1-4E7C-A8BA-AF677D0AC44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4534CF0-A7C1-4E7C-A8BA-AF677D0AC44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4534CF0-A7C1-4E7C-A8BA-AF677D0AC44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4534CF0-A7C1-4E7C-A8BA-AF677D0AC44A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
