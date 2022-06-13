@@ -7,6 +7,12 @@ builder.Services.AddCors(options =>
         .AllowAnyHeader()
         .AllowAnyMethod();
     });
+    options.AddPolicy("Production", builder =>
+    {
+        builder.WithOrigins("https://www.greed.com")
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
 });
 var app = builder.Build();
 
