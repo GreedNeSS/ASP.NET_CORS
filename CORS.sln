@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Configuration_CORS", "Confi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Configuration_static_server", "Configuration_static_server\Configuration_static_server.csproj", "{F0A3E683-1513-41FB-B36C-50BC4AB6CF90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CORS_Policy_Server", "CORS_Policy_Server\CORS_Policy_Server.csproj", "{8C84A15F-964A-447D-8510-C4B74DA2AF96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CORS_Policy_Server", "CORS_Policy_Server\CORS_Policy_Server.csproj", "{8C84A15F-964A-447D-8510-C4B74DA2AF96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Policy_Static_Server", "Policy_Static_Server\Policy_Static_Server.csproj", "{3A09E704-260F-46A4-8006-5D88E1EBAD49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Policy_Static_Server", "Policy_Static_Server\Policy_Static_Server.csproj", "{3A09E704-260F-46A4-8006-5D88E1EBAD49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequireCORS_Static_Server", "RequireCORS_Static_Server\RequireCORS_Static_Server.csproj", "{CC023D89-A811-4BFC-9219-990421304DE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3A09E704-260F-46A4-8006-5D88E1EBAD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A09E704-260F-46A4-8006-5D88E1EBAD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A09E704-260F-46A4-8006-5D88E1EBAD49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC023D89-A811-4BFC-9219-990421304DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC023D89-A811-4BFC-9219-990421304DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC023D89-A811-4BFC-9219-990421304DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC023D89-A811-4BFC-9219-990421304DE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
