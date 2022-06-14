@@ -1,13 +1,55 @@
 ﻿const result = document.querySelector("#result");
-const button = document.querySelector("#btn");
+const buttonM = document.querySelector("#btnM");
+const buttonH = document.querySelector("#btnH");
+const buttonA = document.querySelector("#btnA");
+const buttonC = document.querySelector("#btnC");
 
-button.addEventListener("click", async () => {
+buttonM.addEventListener("click", async () => {
     try {
-        const response = await fetch("https://localhost:7148/");
+        const response = await fetch("https://localhost:7232");
 
         if (response.ok) {
-            resp = await response.json();
-            result.innerText = resp.message;
+            resp = await response.text();
+            result.innerText = resp;
+        }
+    } catch (e) {
+        result.innerText = e.massage;
+    }
+})
+
+buttonH.addEventListener("click", async () => {
+    try {
+        const response = await fetch("https://localhost:7232/home");
+
+        if (response.ok) {
+            resp = await response.text();
+            result.innerText = resp;
+        }
+    } catch (e) {
+        result.innerText = e.massage;
+    }
+})
+
+buttonA.addEventListener("click", async () => {
+    try {
+        const response = await fetch("https://localhost:7232/about");
+
+        if (response.ok) {
+            resp = await response.text();
+            result.innerText = resp;
+        }
+    } catch (e) {
+        result.innerText = e.massage;
+    }
+})
+
+buttonC.addEventListener("click", async () => {
+    try {
+        const response = await fetch("https://localhost:7232/contacts");
+
+        if (response.ok) {
+            resp = await response.text();
+            result.innerText = resp;
         }
     } catch (e) {
         result.innerText = e.massage;

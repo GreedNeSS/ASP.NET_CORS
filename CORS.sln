@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CORS_Policy_Server", "CORS_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Policy_Static_Server", "Policy_Static_Server\Policy_Static_Server.csproj", "{3A09E704-260F-46A4-8006-5D88E1EBAD49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequireCORS_Static_Server", "RequireCORS_Static_Server\RequireCORS_Static_Server.csproj", "{CC023D89-A811-4BFC-9219-990421304DE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequireCORS_Server", "RequireCORS_Server\RequireCORS_Server.csproj", "{65843B62-0B56-471E-B751-604866F4A162}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequireCORS_Server", "RequireCORS_Server\RequireCORS_Server.csproj", "{65843B62-0B56-471E-B751-604866F4A162}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequireCORS_Static_Server", "RequireCORS_Static_Server\RequireCORS_Static_Server.csproj", "{8BB55BD6-D4B5-4380-958F-4AF0C6021768}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,14 +49,14 @@ Global
 		{3A09E704-260F-46A4-8006-5D88E1EBAD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A09E704-260F-46A4-8006-5D88E1EBAD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A09E704-260F-46A4-8006-5D88E1EBAD49}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC023D89-A811-4BFC-9219-990421304DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC023D89-A811-4BFC-9219-990421304DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC023D89-A811-4BFC-9219-990421304DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC023D89-A811-4BFC-9219-990421304DE0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{65843B62-0B56-471E-B751-604866F4A162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{65843B62-0B56-471E-B751-604866F4A162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65843B62-0B56-471E-B751-604866F4A162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65843B62-0B56-471E-B751-604866F4A162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB55BD6-D4B5-4380-958F-4AF0C6021768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB55BD6-D4B5-4380-958F-4AF0C6021768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB55BD6-D4B5-4380-958F-4AF0C6021768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB55BD6-D4B5-4380-958F-4AF0C6021768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
